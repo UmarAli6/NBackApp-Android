@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/stimuliItem"
+        android:title="Stimuli"
+        app:showAsAction="never" >
+        <menu>
+            <group
+                android:id="@+id/group"
+                android:checkableBehavior="single">
+                <item android:id="@+id/visualOption"
+                    android:title="Visual"/>
+                <item android:id="@+id/audioOption"
+                    android:title="Audio"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/eventTimeSetting"
+        android:title="Time between events"
+        app:showAsAction="never" >
+        <menu>
+            <group
+                android:id="@+id/timeGroup"
+                android:checkableBehavior="single">
+                <item android:id="@+id/firstTimeOption"
+                    android:title="1 seconds"/>
+                <item android:id="@+id/secondTimeOption"
+                    android:title="2 seconds"/>
+                <item android:id="@+id/thirdTimeOption"
+                    android:title="5 seconds"/>
+                <item android:id="@+id/fourthTimeOption"
+                    android:title="10 seconds"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/eventAmountSetting"
+        android:title="Number of events"
+        app:showAsAction="never" >
+        <menu>
+            <group
+                android:id="@+id/amountGroup"
+                android:checkableBehavior="single">
+                <item android:id="@+id/firstAmountOption"
+                    android:title="10 events"/>
+                <item android:id="@+id/secondAmountOption"
+                    android:title="15 events"/>
+                <item android:id="@+id/thirdAmountOption"
+                    android:title="20 events"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/stop"
+        android:title="Stop"
+        app:showAsAction="never"
+        />
+</menu>
