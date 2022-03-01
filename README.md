@@ -1,2 +1,2 @@
 # Android-NBackApp
-N-back performence task app written in Kotlin.
+N-back performance task app written in Kotlin. Can be used to test working memory and memory capacity. Both visual and auditory tests. 
